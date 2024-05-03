@@ -15,3 +15,7 @@
 - [Task – 3: Encryption mode – corrupted cipher text](./Lab3/Tasks-3.md)
 
 - [Task – 4: Padding in Different Mode](./Lab3/Tasks-4.md)
+
+- [Task – 5: Generating message digest](./Lab3/Tasks-5.md)
+
+- [Task – 6: Keyed hash and HMAC](./Lab3/Tasks-6.md)
