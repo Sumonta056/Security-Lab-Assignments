@@ -1,5 +1,4 @@
-## Task – 3: Encryption mode – corrupted cipher text (3 Marks)
-
+## Task – 3: Encryption mode – corrupted cipher text
 - 64 bytes long : Plain.txt
 
 ```

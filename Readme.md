@@ -1,7 +1,5 @@
 # Security Lab Assignments
 
-<hr>
-
 ### Lab Assignment 2: : Attacking Classic Crypto Systems
 
 - [Checkpoint – 1: Caesar cipher](./Lab2/Checkpoint%20-%201/Caesar%20Cipher.ipynb)
@@ -15,3 +13,5 @@
 - [Task – 2: Encryption mode - ECB vs CBC](./Lab3/Tasks-2.md)
 
 - [Task – 3: Encryption mode – corrupted cipher text](./Lab3/Tasks-3.md)
+
+- [Task – 4: Padding in Different Mode](./Lab3/Tasks-4.md)

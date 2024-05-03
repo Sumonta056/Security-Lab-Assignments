@@ -1,6 +1,6 @@
 
 
-## Encryption mode - ECB vs CBC (3 Marks)
+## Encryption mode - ECB vs CBC 
 
 ![alt text](image-7.png)
 ![alt text](image-8.png)
