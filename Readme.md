@@ -19,3 +19,6 @@
 - [Task – 5: Generating message digest](./Lab3/Tasks-5.md)
 
 - [Task – 6: Keyed hash and HMAC](./Lab3/Tasks-6.md)
+
+- [Task – 7: Keyed hash and HMAC](./Lab3/Tasks-7.md)
+
