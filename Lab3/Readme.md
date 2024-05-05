@@ -1,22 +1,22 @@
-### Lab Assignment 3: : Symmetric encryption & hashing
+## 📝 Lab Assignment 3: : Symmetric encryption & hashing
 
-- [Task – 1: AES encryption using different modes](./Tasks-1.md)
+- [✅ Task – 1: AES encryption using different modes](./Tasks-1.md)
 
-- [Task – 2: Encryption mode - ECB vs CBC](./Tasks-2.md)
+- [✅ Task – 2: Encryption mode - ECB vs CBC](./Tasks-2.md)
 
-- [Task – 3: Encryption mode – corrupted cipher text](./Tasks-3.md)
+- [✅ Task – 3: Encryption mode – corrupted cipher text](./Tasks-3.md)
 
-- [Task – 4: Padding in Different Mode](./Tasks-4.md)
+- [✅ Task – 4: Padding in Different Mode](./Tasks-4.md)
 
-- [Task – 5: Generating message digest](./Tasks-5.md)
+- [✅ Task – 5: Generating message digest](./Tasks-5.md)
 
-- [Task – 6: Keyed hash and HMAC](./Tasks-6.md)
+- [✅ Task – 6: Keyed hash and HMAC](./Tasks-6.md)
 
-- [Task – 7: Keyed hash and HMAC + Bonus Task](./Tasks-7.md)
+- [✅ Task – 7: Keyed hash and HMAC + Bonus Task](./Tasks-7.md)
 
 <hr>
 
-### Task – 1: AES encryption using 3 different modes
+## Task – 1: AES encryption using 3 different modes
 
 - Create a New File `plain.txt` and adding several lines of texts
 
@@ -180,7 +180,7 @@
 
 <hr>
 
-### Task – 3: Encryption mode – Corrupted Cipher Text
+## Task – 3: Encryption mode – Corrupted Cipher Text
 
 - Create a 64 bytes long Plain.txt
 
@@ -291,7 +291,7 @@ Welcome to my document! This is a sample text file created for demonstration pur
 
 <hr>
 
-### Task – 4: Padding
+## Task – 4: Padding
 
 - **✅ ECB Encryption & Decryption**
 
@@ -335,11 +335,11 @@ openssl enc -aes-128-ofb -d -in cipher4.bin -out decipher4.txt -K 00112233445566
 
 ![alt text](./assets/image-18.png)
 
-### Analyze the Results
+#### Analyze the Results
 
 After running the commands, have encrypted and decrypted files for each mode. Compare the sizes of the original plaintext file and the decrypted files. Observe that the decrypted files are the same size as the original plaintext file, indicating that padding was correctly applied and removed in CBC and CFB modes. In ECB and OFB modes, the sizes may differ due to the nature of these modes, but ECB does not require padding, and OFB does not require padding either.
 
-### Report Findings
+#### Report Findings
 
 - ECB: No padding is required because it operates on blocks directly.
 - CBC: Requires padding because it operates on blocks, and the plaintext length might not match the block size.
@@ -348,7 +348,7 @@ After running the commands, have encrypted and decrypted files for each mode. Co
 
 <hr>
 
-### Task – 5: Generating Message Digest
+## Task – 5: Generating Message Digest
 
 - `Plaint.txt` file is used to generate the hash value using the `SHA-256`, `MD-5`, and `SHA-1` one-way hash algorithm.
 
@@ -433,7 +433,7 @@ While there's no strict rule, a common recommendation is to use a key that **is 
 
 <hr>
 
-### Task – 7: Keyed hash and HMAC (with Bonus Tasks)
+## Task – 7: Keyed hash and HMAC (with Bonus Tasks)
 
 - Plain Text File: `plain.txt`
 

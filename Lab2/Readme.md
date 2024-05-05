@@ -102,10 +102,7 @@ key: 10 decrypted_text: ethereumisthebestsmartcontractplatformoutthere
 
 - Input - 1 Cipher Text :
 
-```text
-Cipher-1: af p xpkcaqvnpk pfg, af ipqe qpri, gauuikifc tpw, ceiri udvk tiki afgarxifrphni cd eao--wvmd popkwn, hiqpvri du ear jvaql vfgikrcpfgafm du cei xkafqaxnir du xrwqedearcdkw pfg du ear aopmafpcasi xkdhafmr afcd fit pkipr. ac tpr qdoudkcafm cd lfdt cepc au pfwceafm epxxifig cd ringdf eaorinu hiudki cei opceiopcaqr du cei uaing qdvng hi qdoxnicinw tdklig dvc--pfg edt rndtnw ac xkdqiigig, pfg edt odvfcpafdvr cei dhrcpqnir--ceiki tdvng pc niprc kiopaf dfi
-mddg oafg cepc tdvng qdfcafvi cei kiripkq
-```
+Cipher-1: af p xpkcaqvnpk pfg, af ipqe qpri, gauuikifc tpw, ceiri udvk tiki afgarxifrphni cd eao--wvmd popkwn, hiqpvri du ear jvaql vfgikrcpfgafm du cei xkafqaxnir du xrwqedearcdkw pfg du ear aopmafpcasi xkdhafmr afcd fit pkipr. ac tpr qdoudkcafm cd lfdt cepc au pfwceafm epxxifig cd ringdf eaorinu hiudki cei opceiopcaqr du cei uaing qdvng hi qdoxnicinw tdklig dvc--pfg edt rndtnw ac xkdqiigig, pfg edt odvfcpafdvr cei dhrcpqnir--ceiki tdvng pc niprc kiopaf dfi mddg oafg cepc tdvng qdfcafvi cei kiripkq
 
 - Output Code :
 
@@ -138,15 +135,14 @@ z    0    0
 y    0    0
 b    0    0
 ---------
-IN A PARTICULAR AND, IN EACH CASE, DIFFERENT WAY, THESE FOUR WERE INDISPENSABLE TO HIMYUGO AMARYL, BECAUSE OF HIS QUICK UNDERSTANDING OF THE PRINCIPLES OF PSYCHOHISTORY AND OF HIS IMAGINATIVE PROBINGS INTO NEW AREAS. IT WAS COMFORTING TO KNOW THAT IF ANYTHING HAPPENED TO SELDON HIMSELF BEFORE THE MATHEMATICS OF THE FIELD COULD BE COMPLETELY WORKED OUTAND HOW SLOWLY IT PROCEEDED, AND HOW MOUNTAINOUS THE OBSTACLESTHERE WOULD AT LEAST REMAIN ONE GOOD MIND THAT WOULD CONTINUE THE RESEARCH
 ```
+
+IN A PARTICULAR AND, IN EACH CASE, DIFFERENT WAY, THESE FOUR WERE INDISPENSABLE TO HIMYUGO AMARYL, BECAUSE OF HIS QUICK UNDERSTANDING OF THE PRINCIPLES OF PSYCHOHISTORY AND OF HIS IMAGINATIVE PROBINGS INTO NEW AREAS. IT WAS COMFORTING TO KNOW THAT IF ANYTHING HAPPENED TO SELDON HIMSELF BEFORE THE MATHEMATICS OF THE FIELD COULD BE COMPLETELY WORKED OUTAND HOW SLOWLY IT PROCEEDED, AND HOW MOUNTAINOUS THE OBSTACLESTHERE WOULD AT LEAST REMAIN ONE GOOD MIND THAT WOULD CONTINUE THE RESEARCH
 
 <hr>
 
 - Input - 2 Cipher Text :
 
-```text
 Cipher-2: aceah toz puvg vcdl omj puvg yudqecov, omj loj auum klu thmjuv hs klu zlcvu shv zcbkg guovz, upuv zcmdu lcz vuwovroaeu jczoyyuovomdu omj qmubyudkuj vukqvm. klu
 vcdluz lu loj avhqnlk aodr svhw lcz kvopuez loj mht audhwu o ehdoe eunumj, omj ck toz
 yhyqeoveg auecupuj, tlokupuv klu hej sher wcnlk zog, klok klu lcee ok aon umj toz sqee hs kqmmuez zkqssuj tckl kvuozqvu. omj cs klok toz mhk umhqnl shv sowu, kluvu toz oezh lcz yvhehmnuj pcnhqv kh wovpue ok. kcwu thvu hm, aqk ck zuuwuj kh lopu eckkeu ussudk hm wv. aonncmz. ok mcmukg lu toz wqdl klu zowu oz ok scskg. ok mcmukg-mcmu klug aunom kh doee lcw tuee-yvuzuvpuj; aqk qmdlomnuj thqej lopu auum muovuv klu wovr. kluvu tuvu zhwu klok zlhhr klucv luojz omj klhqnlk klcz toz khh wqdl hs o nhhj klcmn; ck zuuwuj qmsocv klok omghmu zlhqej yhzzuzz (oyyovumkeg) yuvyukqoe ghqkl oz tuee oz (vuyqkujeg) cmubloqzkcaeu tuoekl. ck tcee lopu kh au yocj shv, klug zocj. ck czm'k mokqvoe, omj kvhqaeu tcee dhwu hs ck! aqk zh sov kvhqaeu loj mhk dhwu; omj oz wv. aonncmz toz numuvhqz tckl lcz whmug, whzk yuhyeu tuvu tceecmn kh shvncpu lcw lcz hjjckcuz omj lcz nhhj shvkqmu. lu vuwocmuj hm pczckcmn kuvwz tckl lcz vueokcpuz (ubduyk, hs dhqvzu, klu zodrpceeuaonncmzuz), omj lu loj womg juphkuj ojwcvuvz owhmn klu lhaackz hs yhhv omj qmcwyhvkomk sowcecuz. aqk lu loj mh dehzu svcumjz, qmkce zhwu hs lcz ghqmnuv dhqzcmz aunom kh nvht qy. klu uejuzk hs kluzu, omj aceah'z sophqvcku, toz ghqmn svhjh aonncmz. tlum aceah toz mcmukg-mcmu lu ojhykuj svhjh oz lcz lucv, omj avhqnlk lcw kh ecpu ok aon umj; omj klu lhyuz hs klu zodrpceeu- aonncmzuz tuvu scmoeeg jozluj. aceah omj svhjh loyyumuj kh lopu klu zowu acvkljog, zuykuwauv 22mj. ghq loj aukkuv dhwu omj ecpu luvu, svhjh wg eoj, zocj aceah hmu jog; omj klum tu dom dueuavoku hqv acvkljog-yovkcuz dhwshvkoaeg khnukluv. ok klok kcwu svhjh toz zkcee cm lcz ktuumz, oz klu lhaackz doeeuj klu cvvuzyhmzcaeu ktumkcuz auktuum dlcejlhhj omj dhwcmn hs onu ok klcvkg-klvuu
-```
