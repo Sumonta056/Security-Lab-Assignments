@@ -40,7 +40,7 @@ openssl enc -aes-128-ofb -e -in plain.txt -out cipher4.bin -K 001122334455667788
 openssl enc -aes-128-ofb -d -in cipher4.bin -out decipher4.txt -K 00112233445566778889aabbccddeeff -iv 01020304050607080550101410114501
 ```
 
-![alt text](./assets/image-18.png)
+![alt text](../assets/image-18.png)
 
 
 ### Analyze the Results

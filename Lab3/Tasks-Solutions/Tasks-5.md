@@ -42,6 +42,6 @@ openssl dgst -sha1 plain.txt
 SHA1(plain.txt)= 049e23ff79275222a395988ca14efac47690829e
 ```
 
-![alt text](./assets/image-19.png)
+![alt text](../assets/image-19.png)
 
 <hr>

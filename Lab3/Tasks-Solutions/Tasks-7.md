@@ -24,7 +24,7 @@ HMAC-MD5(plain.txt)= e6b87de7fed721b49a0b08aef1305024ghhex
 ghex plain.txt
 ```
 
-![alt text](./assets/image-21.png)
+![alt text](../assets/image-21.png)
 
 - **Modify the File by Flipping One Bit (Change `61` to `20`)**
 
@@ -40,11 +40,11 @@ openssl dgst -md5 -hmac "mykey" plain.txt
 HMAC-MD5(plain.txt)= 281db338ab6e5927c2dcd6b238ab9112
 ```
 
-![alt text](./assets/image-22.png)
+![alt text](../assets/image-22.png)
 
 - **Counting how many bits are the same between H1 and H2. (Bonus Task)**
 
-![alt text](./assets/image-23.png)
+![alt text](../assets/image-23.png)
 
 - **Number of matching bits: 184**
 
@@ -68,7 +68,7 @@ HMAC-SHA2-256(plain.txt)= 69bf09739792ead4a1f90a9e96235b19ef74bb659f371f9ead59b0
 ghex plain.txt
 ```
 
-![alt text](./assets/image-21.png)
+![alt text](../assets/image-21.png)
 
 - **Modify the File by Flipping One Bit (Change `61` to `20`)**
 
@@ -84,11 +84,11 @@ openssl dgst -sha256 -hmac "mylongerkey" plain.txt
 HMAC-SHA2-256(plain.txt)= b2e47fcb6f288b15a5a4a010808a0ee1b1247df4826b90427a4e3f470e3af0b7
 ```
 
-![alt text](./assets/image40.png)
+![alt text](../assets/image40.png)
 
 - **Counting how many bits are the same between H1 and H2. (Bonus Task)**
 
-![alt text](./assets/image41.png)
+![alt text](../assets/image41.png)
 
 - **Number of matching bits: 125**
 

@@ -2,8 +2,8 @@
 
 - Using this image as an input
 
-![alt text](./assets/image-7.png)
-![alt text](./assets/image-8.png)
+![alt text](../assets//image-7.png)
+![alt text](../assets//image-8.png)
 
 1. **✅ Encrypt the image using AES encryption in EBC mode && Cipher Type `-aes-128-ecb`**
 
@@ -17,12 +17,12 @@
     ghex image_ecb.bmp
 ```
 
-![alt text](./assets/image-9.png)
+![alt text](../assets//image-9.png)
 
 - Reconstruct the header file of the encrypt with ghex from the original file.
 - Replacing the first 54 bytes of image_ecb.bmp with the first 54 bytes of panda.bmp
 
-![alt text](./assets/image-10.png)
+![alt text](../assets//image-10.png)
 
 - **🔖 We Can See ECB encryption exposes patterns in the encrypted image of the original image.**
 
@@ -40,12 +40,12 @@
    ghex image_cbc.bmp
 ```
 
-![alt text](./assets/image-11.png)
+![alt text](../assets//image-11.png)
 
 - Reconstruct the header file of the encrypt with ghex from the original file.
 - Replacing the first 54 bytes of image_cbc.bmp with the first 54 bytes of panda.bmp
 
-![alt text](./assets/image-13.png)
+![alt text](../assets//image-13.png)
 
 - **🔖 We Can See CBC encryption doesn't exposes patterns in the encrypted image of the original image.**
 

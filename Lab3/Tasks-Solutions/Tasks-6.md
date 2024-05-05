@@ -21,7 +21,7 @@ openssl dgst -sha256 -hmac "mylongerkey" plain.txt
 openssl dgst -sha1 -hmac "myshort" plain.txt
 ```
 
-![alt text](./assets/image-20.png)
+![alt text](../assets/image-20.png)
 
 #### 🔖 Addressing the Key Size Requirement
 

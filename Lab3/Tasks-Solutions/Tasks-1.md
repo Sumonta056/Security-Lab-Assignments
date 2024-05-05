@@ -14,7 +14,7 @@
     ghex plain.txt
 ```
 
-![alt text](./assets/image-4.png)
+![alt text](../assets/image-4.png)
 
 1. **✅ Encrypt the file using AES encryption in ECB mode && Cipher Type `-aes-128-ecb`**
 
@@ -42,8 +42,8 @@
     ghex decipher1.txt
 ```
 
-![alt text](./assets/image.png)
-![alt text](./assets/image-5.png)
+![alt text](../assets/image.png)
+![alt text](../assets/image-5.png)
 
 <hr>
 
@@ -73,8 +73,8 @@
     ghex decipher2.txt
 ```
 
-![alt text](./assets/image-1.png)
-![alt text](./assets/image-6.png)
+![alt text](../assets/image-1.png)
+![alt text](../assets/image-6.png)
 
 <hr>
 
@@ -104,7 +104,7 @@
     ghex decipher3.txt
 ```
 
-![alt text](./assets/image-2.png)
-![alt text](./assets/image-3.png)
+![alt text](../assets/image-2.png)
+![alt text](../assets/image-3.png)
 
 <hr>

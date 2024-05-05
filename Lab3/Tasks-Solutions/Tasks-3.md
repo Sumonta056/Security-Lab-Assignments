@@ -28,7 +28,7 @@ Welcome to my document! This is a sample text file created for demonstration pur
     ghex cipher1.bin
 ```
 
-![alt text](./assets/image-15.png)
+![alt text](../assets/image-15.png)
 
 - **Modifying the `30th byte` from `C` to `2`**
 
@@ -58,7 +58,7 @@ Welcome to my document! This is a sample text file created for demonstration pur
 
 - **🔖 Here we can see that the `30th byte` is corrupted and the message is not decrypted properly.**
 
-![alt text](./assets/image-14.png)
+![alt text](../assets/image-14.png)
 
 2. **✅ Encrypt the file using AES encryption in CBC mode && Cipher Type `-aes-128-cbc`**
 
@@ -78,7 +78,7 @@ Welcome to my document! This is a sample text file created for demonstration pur
     ghex cipher2.bin
 ```
 
-![alt text](./assets/image-16.png)
+![alt text](../assets/image-16.png)
 
 - **Now modify the `30th byte` from `1` to `3`**
 
@@ -105,6 +105,6 @@ Welcome to my document! This is a sample text file created for demonstration pur
 
 - **🔖 Here we can see that the `30th byte` is corrupted and the message is not decrypted properly.**
 
-![alt text](./assets/image-17.png)
+![alt text](../assets/image-17.png)
 
 <hr>
