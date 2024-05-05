@@ -1,6 +1,6 @@
 ### Task – 4: Padding
 
-- ECB Encryption & Decryption
+- **✅ ECB Encryption & Decryption**
 
 ```bash
 openssl enc -aes-128-ecb -e -in plain.txt -out cipher1.bin -K 00112233445566778889aabbccddeeff
@@ -10,7 +10,7 @@ openssl enc -aes-128-ecb -e -in plain.txt -out cipher1.bin -K 001122334455667788
 openssl enc -aes-128-ecb -d -in cipher1.bin -out decipher1.txt -K 00112233445566778889aabbccddeeff
 ```
 
-- CBC Encryption & Decryption
+- **✅ CBC Encryption & Decryption**
 
 ```bash
 openssl enc -aes-128-cbc -e -in plain.txt -out cipher2.bin -K 00112233445566778889aabbccddeeff -iv 01020304050607080550101410114501
@@ -20,7 +20,7 @@ openssl enc -aes-128-cbc -e -in plain.txt -out cipher2.bin -K 001122334455667788
 openssl enc -aes-128-cbc -d -in cipher2.bin -out decipher2.txt -K 00112233445566778889aabbccddeeff -iv 01020304050607080550101410114501
 ```
 
-- CFB Encryption & Decryption
+- **✅ CFB Encryption & Decryption**
 
 ```bash
 openssl enc -aes-128-cfb -e -in plain.txt -out cipher3.bin -K 00112233445566778889aabbccddeeff -iv 01020304050607080550101410114501
@@ -30,7 +30,7 @@ openssl enc -aes-128-cfb -e -in plain.txt -out cipher3.bin -K 001122334455667788
 openssl enc -aes-128-cfb -d -in cipher3.bin -out decipher3.txt -K 00112233445566778889aabbccddeeff -iv 01020304050607080550101410114501
 ```
 
-- OFB Encryption & Decryption
+- **✅ OFB Encryption & Decryption**
 
 ```bash
 openssl enc -aes-128-ofb -e -in plain.txt -out cipher4.bin -K 00112233445566778889aabbccddeeff -iv 01020304050607080550101410114501
@@ -39,11 +39,13 @@ openssl enc -aes-128-ofb -e -in plain.txt -out cipher4.bin -K 001122334455667788
 ```bash
 openssl enc -aes-128-ofb -d -in cipher4.bin -out decipher4.txt -K 00112233445566778889aabbccddeeff -iv 01020304050607080550101410114501
 ```
-![alt text](image-18.png)
+
+![alt text](./assets/image-18.png)
+
 
 ### Analyze the Results
 
-After running the commands, you will have encrypted and decrypted files for each mode. Compare the sizes of the original plaintext file and the decrypted files. You should observe that the decrypted files are the same size as the original plaintext file, indicating that padding was correctly applied and removed in CBC and CFB modes. In ECB and OFB modes, the sizes may differ due to the nature of these modes, but ECB does not require padding, and OFB does not require padding either.
+After running the commands, have encrypted and decrypted files for each mode. Compare the sizes of the original plaintext file and the decrypted files. Observe that the decrypted files are the same size as the original plaintext file, indicating that padding was correctly applied and removed in CBC and CFB modes. In ECB and OFB modes, the sizes may differ due to the nature of these modes, but ECB does not require padding, and OFB does not require padding either.
 
 ### Report Findings
 

@@ -1,5 +1,6 @@
-## Task – 3: Encryption mode – corrupted cipher text
-- 64 bytes long : Plain.txt
+### Task – 3: Encryption mode – Corrupted Cipher Text
+
+- Create a 64 bytes long Plain.txt
 
 ```
 Hlw ! I am Sumonta Saha Mridul. This is a sceret Message !
@@ -9,7 +10,7 @@ Checking what happens i modify some code in decription
 Welcome to my document! This is a sample text file created for demonstration purposes. In this document, we'll explore various topics related to technology, science, and creativity. Feel free to edit and customize this text as needed. Remember to save your changes before closing the file. Enjoy exploring!
 ```
 
-1. Encrypt the file using AES encryption in ECB mode && Cipher Type `-aes-128-ecb`
+1. **✅ Encrypt the file using AES encryption in ECB mode && Cipher Type `-aes-128-ecb`**
 
 ```bash
     openssl enc -aes-128-ecb -e -in plain.txt -out cipher1.bin -K 00112233445566778889aabbccddeeff
@@ -27,9 +28,9 @@ Welcome to my document! This is a sample text file created for demonstration pur
     ghex cipher1.bin
 ```
 
-![alt text](image-15.png)
+![alt text](./assets/image-15.png)
 
-- Now modify the `30th byte` from `C` to `2`
+- **Modifying the `30th byte` from `C` to `2`**
 
 - Now Decrypt the file using AES encryption in ECB mode && Cipher Type `-aes-128-ecb`
 
@@ -55,11 +56,11 @@ Checking what happens i modify some code in decription
 Welcome to my document! This is a sample text file created for demonstration purposes. In this document, we'll explore various topics related to technology, science, and creativity. Feel free to edit and customize this text as needed. Remember to save your changes before closing the file. Enjoy exploring!
 ```
 
-- Here we can see that the `30th byte` is corrupted and the message is not decrypted properly.
+- **🔖 Here we can see that the `30th byte` is corrupted and the message is not decrypted properly.**
 
-![alt text](image-14.png)
+![alt text](./assets/image-14.png)
 
-2. Encrypt the file using AES encryption in CBC mode && Cipher Type `-aes-128-cbc`
+2. **✅ Encrypt the file using AES encryption in CBC mode && Cipher Type `-aes-128-cbc`**
 
 ```bash
     openssl enc -aes-128-cbc -e -in plain.txt -out cipher2.bin -K 00112233445566778889aabbccddeeff -iv 01020304050607080550101410114501
@@ -77,9 +78,9 @@ Welcome to my document! This is a sample text file created for demonstration pur
     ghex cipher2.bin
 ```
 
-![alt text](image-16.png)
+![alt text](./assets/image-16.png)
 
-- Now modify the `30th byte` from `1` to `3`
+- **Now modify the `30th byte` from `1` to `3`**
 
 - Now Decrypt the file using AES encryption in ECB mode && Cipher Type `-aes-128-cbc`
 
@@ -102,6 +103,8 @@ Welcome to my document! This is a sample text file created for demonstration pur
 
 ```
 
-- Here we can see that the `30th byte` is corrupted and the message is not decrypted properly.
+- **🔖 Here we can see that the `30th byte` is corrupted and the message is not decrypted properly.**
 
-![alt text](image-17.png)
+![alt text](./assets/image-17.png)
+
+<hr>
