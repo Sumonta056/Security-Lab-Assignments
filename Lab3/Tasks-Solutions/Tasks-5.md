@@ -1,4 +1,4 @@
-### Task – 5: Generating Message Digest
+## Task – 5: Generating Message Digest
 
 - `Plaint.txt` file is used to generate the hash value using the `SHA-256`, `MD-5`, and `SHA-1` one-way hash algorithm.
 

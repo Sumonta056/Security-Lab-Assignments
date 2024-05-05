@@ -1,18 +1,18 @@
 ## 📝 Lab Assignment 3: : Symmetric encryption & hashing
 
-- [✅ Task – 1: AES encryption using different modes](./Tasks-1.md)
+- [✅ Task – 1: AES encryption using different modes](./Tasks-Solutions/Tasks-1.md)
 
-- [✅ Task – 2: Encryption mode - ECB vs CBC](./Tasks-2.md)
+- [✅ Task – 2: Encryption mode - ECB vs CBC](./Tasks-Solutions/Tasks-2.md)
 
-- [✅ Task – 3: Encryption mode – corrupted cipher text](./Tasks-3.md)
+- [✅ Task – 3: Encryption mode – corrupted cipher text](./Tasks-Solutions/Tasks-3.md)
 
-- [✅ Task – 4: Padding in Different Mode](./Tasks-4.md)
+- [✅ Task – 4: Padding in Different Mode](./Tasks-Solutions/Tasks-4.md)
 
-- [✅ Task – 5: Generating message digest](./Tasks-5.md)
+- [✅ Task – 5: Generating message digest](./Tasks-Solutions/Tasks-5.md)
 
-- [✅ Task – 6: Keyed hash and HMAC](./Tasks-6.md)
+- [✅ Task – 6: Keyed hash and HMAC](./Tasks-Solutions/Tasks-6.md)
 
-- [✅ Task – 7: Keyed hash and HMAC + Bonus Task](./Tasks-7.md)
+- [✅ Task – 7: Keyed hash and HMAC + Bonus Task](./Tasks-Solutions/Tasks-7.md)
 
 <hr>
 

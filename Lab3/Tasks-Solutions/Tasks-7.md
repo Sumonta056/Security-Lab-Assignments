@@ -1,4 +1,4 @@
-### Task – 7: Keyed hash and HMAC (with Bonus Tasks)
+## Task – 7: Keyed hash and HMAC (with Bonus Tasks)
 
 - Plain Text File: `plain.txt`
 
