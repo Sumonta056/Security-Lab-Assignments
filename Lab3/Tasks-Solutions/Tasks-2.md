@@ -5,7 +5,7 @@
 ![alt text](../assets//image-7.png)
 ![alt text](../assets//image-8.png)
 
-1. **✅ Encrypt the image using AES encryption in EBC mode && Cipher Type `-aes-128-ecb`**
+1. **✅ Encrypt the image using AES encryption in ECB mode && Cipher Type `-aes-128-ecb`**
 
 ```bash
    openssl enc -aes-128-ecb -in panda.bmp -out image_ecb.bmp -K 0123456789abcdef0123456789abcdef

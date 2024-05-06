@@ -1,5 +1,32 @@
 ## Task – 3: Encryption mode – Corrupted Cipher Text
 
+#### ❓ Question : How much information can you recover by decrypting the corrupted file, if the encryption mode is ECB, CBC, CFB, or OFB, respectively?
+
+- **ECB Mode Recovery**: In ECB mode, each block of plaintext is encrypted independently of other blocks. This means that if a single block is corrupted, only that specific block can be decrypted without affecting the others. Therefore, you can recover the entire file except for the corrupted block.
+
+- **CBC Mode Recovery**: CBC mode uses an IV (Initialization Vector) and chains the encryption of each block to the previous one. If a block is corrupted, it cannot be decrypted without the corresponding ciphertext block. However, if you have the corrupted ciphertext block and the IV, you can decrypt the entire file except for the corrupted block.
+
+- **CFB Mode Recovery**: Similar to CBC, CFB also chains the encryption of each block to the previous one. The difference lies in how the chaining is done. If a block is corrupted, it cannot be decrypted without the corresponding ciphertext block. Recovery depends on having the corrupted ciphertext block and the IV.
+
+- **OFB Mode Recovery**: OFB mode generates a keystream block by block and XORs it with the plaintext block to produce the ciphertext. If a block is corrupted, it cannot be decrypted without the corresponding ciphertext block. Recovery depends on having the corrupted ciphertext block and the IV.
+
+#### ❓ Question : Why These Differences?
+
+The differences in recovery capabilities stem from how each mode processes and encrypts data:
+
+1. ECB treats each block as independent, making it easier to recover data but less secure against patterns in the plaintext.
+2. CBC, CFB, and OFB all introduce some form of chaining or feedback mechanism, which makes them more secure against patterns but also complicates recovery from corrupted blocks because they depend on the integrity of the entire chain.
+
+#### ❓ Question : What are the implications of these differences?
+
+1. ECB (Electronic Codebook): This method has a weakness in that it is susceptible to plaintext patterns and does not effectively diffuse information.
+2. CBC (Cipher Block Chaining): This technique offers improved diffusion and is more resistant to attacks that utilize known plaintext, compared to ECB.
+3. CFB (Cipher Feedback) and OFB (Output Feedback): These modes have the benefit of error propagation, which means that a corruption in one block does not affect the following blocks. This feature can be beneficial in certain situations.
+
+<hr>
+
+### Test Encryption mode – Corrupted Cipher Text
+
 - Create a 64 bytes long Plain.txt
 
 ```
@@ -107,4 +134,8 @@ Welcome to my document! This is a sample text file created for demonstration pur
 
 ![alt text](../assets/image-17.png)
 
+Observation: Different encryption modes like ECB, CBC, CFB, and OFB offer varying levels of resilience to data corruption, with ECB being the least resilient and CFB/OFB providing better error propagation, affecting the recovery of information.
+
 <hr>
+
+
