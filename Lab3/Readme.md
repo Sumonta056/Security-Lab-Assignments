@@ -1,4 +1,4 @@
-## 📝 Lab Assignment 3: : Symmetric encryption & hashing
+## 📝 Lab Assignment 3: Symmetric encryption & hashing
 
 - [✅ Task – 1: AES encryption using different modes](./Tasks-Solutions/Tasks-1.md)
 

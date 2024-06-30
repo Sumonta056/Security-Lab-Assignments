@@ -1,4 +1,4 @@
-## 📝 Lab Assignment 4: : Programming Symmetric & Asymmetric Crypto
+## 📝 Lab Assignment 4: Programming Symmetric & Asymmetric Crypto
 
 - [✅ Tasks - 1 : AES encryption/decryption with two key lengths, 128 and 256 bits, and two modes ECB and CFB](#-tasks---1--aes-encryptiondecryption-with-two-key-lengths-128-and-256-bits-and-two-modes-ecb-and-cfb)
 

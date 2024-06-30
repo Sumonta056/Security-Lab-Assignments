@@ -1,4 +1,4 @@
-## 📝 Lab Assignment 5: : Securing Apache Web Server
+## 📝 Lab Assignment 5: Securing Apache Web Server
 
 - [✅ Tasks - 1 : Becoming a certificate authority](#-tasks---1--becoming-a-certificate-authority)
 
